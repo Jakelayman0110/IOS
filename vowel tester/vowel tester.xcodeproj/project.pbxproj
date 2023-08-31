@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB33FC1D2AA1081C0088001C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FC1C2AA1081C0088001C /* AppDelegate.swift */; };
+		CB33FC1F2AA1081C0088001C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FC1E2AA1081C0088001C /* SceneDelegate.swift */; };
+		CB33FC212AA1081C0088001C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FC202AA1081C0088001C /* ViewController.swift */; };
+		CB33FC242AA1081C0088001C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB33FC222AA1081C0088001C /* Main.storyboard */; };
+		CB33FC262AA1081D0088001C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB33FC252AA1081D0088001C /* Assets.xcassets */; };
+		CB33FC292AA1081D0088001C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB33FC272AA1081D0088001C /* LaunchScreen.storyboard */; };
+		CB33FC342AA1081D0088001C /* vowel_testerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FC332AA1081D0088001C /* vowel_testerTests.swift */; };
+		CB33FC3E2AA1081D0088001C /* vowel_testerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FC3D2AA1081D0088001C /* vowel_testerUITests.swift */; };
+		CB33FC402AA1081D0088001C /* vowel_testerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33FC3F2AA1081D0088001C /* vowel_testerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB33FC302AA1081D0088001C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB33FC112AA1081C0088001C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB33FC182AA1081C0088001C;
+			remoteInfo = "vowel tester";
+		};
+		CB33FC3A2AA1081D0088001C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB33FC112AA1081C0088001C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB33FC182AA1081C0088001C;
+			remoteInfo = "vowel tester";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB33FC192AA1081C0088001C /* vowel tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vowel tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB33FC1C2AA1081C0088001C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB33FC1E2AA1081C0088001C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB33FC202AA1081C0088001C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB33FC232AA1081C0088001C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB33FC252AA1081D0088001C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB33FC282AA1081D0088001C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB33FC2A2AA1081D0088001C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB33FC2F2AA1081D0088001C /* vowel testerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vowel testerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB33FC332AA1081D0088001C /* vowel_testerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vowel_testerTests.swift; sourceTree = "<group>"; };
+		CB33FC392AA1081D0088001C /* vowel testerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vowel testerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB33FC3D2AA1081D0088001C /* vowel_testerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vowel_testerUITests.swift; sourceTree = "<group>"; };
+		CB33FC3F2AA1081D0088001C /* vowel_testerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vowel_testerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB33FC162AA1081C0088001C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB33FC2C2AA1081D0088001C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB33FC362AA1081D0088001C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB33FC102AA1081C0088001C = {
+			isa = PBXGroup;
+			children = (
+				CB33FC1B2AA1081C0088001C /* vowel tester */,
+				CB33FC322AA1081D0088001C /* vowel testerTests */,
+				CB33FC3C2AA1081D0088001C /* vowel testerUITests */,
+				CB33FC1A2AA1081C0088001C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB33FC1A2AA1081C0088001C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB33FC192AA1081C0088001C /* vowel tester.app */,
+				CB33FC2F2AA1081D0088001C /* vowel testerTests.xctest */,
+				CB33FC392AA1081D0088001C /* vowel testerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB33FC1B2AA1081C0088001C /* vowel tester */ = {
+			isa = PBXGroup;
+			children = (
+				CB33FC1C2AA1081C0088001C /* AppDelegate.swift */,
+				CB33FC1E2AA1081C0088001C /* SceneDelegate.swift */,
+				CB33FC202AA1081C0088001C /* ViewController.swift */,
+				CB33FC222AA1081C0088001C /* Main.storyboard */,
+				CB33FC252AA1081D0088001C /* Assets.xcassets */,
+				CB33FC272AA1081D0088001C /* LaunchScreen.storyboard */,
+				CB33FC2A2AA1081D0088001C /* Info.plist */,
+			);
+			path = "vowel tester";
+			sourceTree = "<group>";
+		};
+		CB33FC322AA1081D0088001C /* vowel testerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB33FC332AA1081D0088001C /* vowel_testerTests.swift */,
+			);
+			path = "vowel testerTests";
+			sourceTree = "<group>";
+		};
+		CB33FC3C2AA1081D0088001C /* vowel testerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB33FC3D2AA1081D0088001C /* vowel_testerUITests.swift */,
+				CB33FC3F2AA1081D0088001C /* vowel_testerUITestsLaunchTests.swift */,
+			);
+			path = "vowel testerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB33FC182AA1081C0088001C /* vowel tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB33FC432AA1081D0088001C /* Build configuration list for PBXNativeTarget "vowel tester" */;
+			buildPhases = (
+				CB33FC152AA1081C0088001C /* Sources */,
+				CB33FC162AA1081C0088001C /* Frameworks */,
+				CB33FC172AA1081C0088001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vowel tester";
+			productName = "vowel tester";
+			productReference = CB33FC192AA1081C0088001C /* vowel tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB33FC2E2AA1081D0088001C /* vowel testerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB33FC462AA1081D0088001C /* Build configuration list for PBXNativeTarget "vowel testerTests" */;
+			buildPhases = (
+				CB33FC2B2AA1081D0088001C /* Sources */,
+				CB33FC2C2AA1081D0088001C /* Frameworks */,
+				CB33FC2D2AA1081D0088001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB33FC312AA1081D0088001C /* PBXTargetDependency */,
+			);
+			name = "vowel testerTests";
+			productName = "vowel testerTests";
+			productReference = CB33FC2F2AA1081D0088001C /* vowel testerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB33FC382AA1081D0088001C /* vowel testerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB33FC492AA1081D0088001C /* Build configuration list for PBXNativeTarget "vowel testerUITests" */;
+			buildPhases = (
+				CB33FC352AA1081D0088001C /* Sources */,
+				CB33FC362AA1081D0088001C /* Frameworks */,
+				CB33FC372AA1081D0088001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB33FC3B2AA1081D0088001C /* PBXTargetDependency */,
+			);
+			name = "vowel testerUITests";
+			productName = "vowel testerUITests";
+			productReference = CB33FC392AA1081D0088001C /* vowel testerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB33FC112AA1081C0088001C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CB33FC182AA1081C0088001C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CB33FC2E2AA1081D0088001C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CB33FC182AA1081C0088001C;
+					};
+					CB33FC382AA1081D0088001C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CB33FC182AA1081C0088001C;
+					};
+				};
+			};
+			buildConfigurationList = CB33FC142AA1081C0088001C /* Build configuration list for PBXProject "vowel tester" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB33FC102AA1081C0088001C;
+			productRefGroup = CB33FC1A2AA1081C0088001C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB33FC182AA1081C0088001C /* vowel tester */,
+				CB33FC2E2AA1081D0088001C /* vowel testerTests */,
+				CB33FC382AA1081D0088001C /* vowel testerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB33FC172AA1081C0088001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB33FC292AA1081D0088001C /* LaunchScreen.storyboard in Resources */,
+				CB33FC262AA1081D0088001C /* Assets.xcassets in Resources */,
+				CB33FC242AA1081C0088001C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB33FC2D2AA1081D0088001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB33FC372AA1081D0088001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB33FC152AA1081C0088001C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB33FC212AA1081C0088001C /* ViewController.swift in Sources */,
+				CB33FC1D2AA1081C0088001C /* AppDelegate.swift in Sources */,
+				CB33FC1F2AA1081C0088001C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB33FC2B2AA1081D0088001C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB33FC342AA1081D0088001C /* vowel_testerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB33FC352AA1081D0088001C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB33FC3E2AA1081D0088001C /* vowel_testerUITests.swift in Sources */,
+				CB33FC402AA1081D0088001C /* vowel_testerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB33FC312AA1081D0088001C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB33FC182AA1081C0088001C /* vowel tester */;
+			targetProxy = CB33FC302AA1081D0088001C /* PBXContainerItemProxy */;
+		};
+		CB33FC3B2AA1081D0088001C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB33FC182AA1081C0088001C /* vowel tester */;
+			targetProxy = CB33FC3A2AA1081D0088001C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB33FC222AA1081C0088001C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB33FC232AA1081C0088001C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB33FC272AA1081D0088001C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB33FC282AA1081D0088001C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB33FC412AA1081D0088001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB33FC422AA1081D0088001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB33FC442AA1081D0088001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vowel tester/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.vowel-tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB33FC452AA1081D0088001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vowel tester/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.vowel-tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB33FC472AA1081D0088001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.vowel-testerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vowel tester.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vowel tester";
+			};
+			name = Debug;
+		};
+		CB33FC482AA1081D0088001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.vowel-testerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vowel tester.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vowel tester";
+			};
+			name = Release;
+		};
+		CB33FC4A2AA1081D0088001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.vowel-testerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vowel tester";
+			};
+			name = Debug;
+		};
+		CB33FC4B2AA1081D0088001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.vowel-testerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vowel tester";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB33FC142AA1081C0088001C /* Build configuration list for PBXProject "vowel tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB33FC412AA1081D0088001C /* Debug */,
+				CB33FC422AA1081D0088001C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB33FC432AA1081D0088001C /* Build configuration list for PBXNativeTarget "vowel tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB33FC442AA1081D0088001C /* Debug */,
+				CB33FC452AA1081D0088001C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB33FC462AA1081D0088001C /* Build configuration list for PBXNativeTarget "vowel testerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB33FC472AA1081D0088001C /* Debug */,
+				CB33FC482AA1081D0088001C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB33FC492AA1081D0088001C /* Build configuration list for PBXNativeTarget "vowel testerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB33FC4A2AA1081D0088001C /* Debug */,
+				CB33FC4B2AA1081D0088001C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB33FC112AA1081C0088001C /* Project object */;
+}
